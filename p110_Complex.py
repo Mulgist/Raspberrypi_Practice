@@ -1,0 +1,10 @@
+c1 = 3 + 4j
+c2 = complex(2, 1.7)
+c3 = c1 + c2
+print(c1, ' + ', c2, ' = ', c3)
+c4 = c1 * c2
+print(c1, ' * ', c2, ' = ', c4)
+print('abs(c1) = ', abs(c1))
+cstr = input('input complex no : ')
+c5 = complex(cstr)
+print(c5, ' + ', c1, ' = ', c1 + c5)
